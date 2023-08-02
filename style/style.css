@@ -16,11 +16,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  background: linear-gradient(
-    135deg,
-    rgba(0, 225, 255, 0.792),
-    rgba(0, 255, 153, 0.856)
-  );
+  background: linear-gradient(135deg, #b7b7b79f, #7c96abe1);
 }
 
 /* ESTILO MAIN */
@@ -36,33 +32,33 @@ body {
 
 .article__title {
   margin: 2% auto;
-  color: rgb(255, 255, 255);
-  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-size: 1.25rem;
 }
 
 .article__text {
-  text-align: center;
-  line-height: 1.5;
+  text-align: justify;
+  line-height: 1.75rem;
   font-size: 1.25rem;
   color: black;
 }
 
 /* ESTILO HEADER */
 header {
-  background-color: rgba(101, 101, 101, 0.504);
   box-shadow: -5px 5px 15px -7px black;
 }
 
 /* ESTILO FOOTER */
 footer {
-  background-color: rgb(101, 101, 101, 0.504);
+  background-color: #7c96ab6e;
   color: white;
   margin-top: 2%;
 }
 
 .bi {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1rem;
+  margin: 1%;
 }
 
 .footer__i {
@@ -71,13 +67,10 @@ footer {
 }
 
 .foter-bottom {
-  background-color: gray;
+  background-color: #b7b7b79f;
   text-align: center;
   font-size: smaller;
-}
-
-ul {
-  padding-left: 0;
+  color: black;
 }
 
 /* btn js mostrar */
